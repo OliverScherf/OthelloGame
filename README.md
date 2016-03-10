@@ -3,12 +3,9 @@
 ## Installation
 
 You either download the compiled jar file, or compile it from source.  
-- [OthelloClient](http://www.oliverscherf.de/projects/othello/Othello.jar)  
-- [OthelloServer](http://www.oliverscherf.de/projects/othello/OthelloServer.jar)  
+- [Othello](http://oliverscherf.de/projects/othello.php?file=othelloClient)  
 	
 On some machines you can't run the .jar file with a simple doubleclick, you have to run `java -jar Othello.jar` from command line.  
-	
-**Note: If you want to run the server on your own server/localhost, you need to change the constant SERVER_IP in the OthelloConstants.java**
 
 ### Client
 
@@ -24,10 +21,12 @@ To run the Othello Client from source under linux:
 	
 ### Server
 
+**Note: If you want to run the server on your own server/localhost, you need to change the constant SERVER_IP in the OthelloConstants.java**
+
 To run the Othello Server from source under windows:   
 - Navigate to the src folder using "cd", i.e. `cd C:\Users\Oliver\Downloads\Othello\src`  
 - run `javac -cp org\game\othello\*; org\game\othello\connection\server\OthelloServer.java` to compile the client  
-- run `java org/game/othello/connection/server/OthelloServer` to start Othello  
+- run `java org/game/othello/connection/server/OthelloServer` to start the server  
 
 To run the Othello Server from source under linux:  
 - Navigate to the src folder using "cd", i.e. `cd /home/oliver/OthelloServer/Othello/src/`  
