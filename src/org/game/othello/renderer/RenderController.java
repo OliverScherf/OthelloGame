@@ -141,7 +141,7 @@ public class RenderController implements OthelloConstants, Loggable {
 			public void handle(ActionEvent event) {
 				Alert helpAlert = new Alert(AlertType.INFORMATION);
 				helpAlert.setResizable(true);
-				helpAlert.getDialogPane().setPrefSize(400.0, 200.0);
+				helpAlert.getDialogPane().setPrefSize(400.0, 300.0);
 				helpAlert.setTitle("Help");
 				helpAlert.setHeaderText("How to play Othello:");
 				helpAlert.setContentText("You can either start the game in offline - or online multiplayer mode. For online multiplayer mode you need to"
